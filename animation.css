@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(162, 138, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.animation{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 750px;
+    height: 300px;
+    background: repeating-linear-gradient(white,rgb(126, 126, 126),white);
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: all 500ms;
+}
+.div{
+    width: 200px;
+    height: 250px;
+    top: 50px;
+    border-radius: 20px;
+    background: repeating-linear-gradient(black,rgb(209, 209, 209),black);
+    transition: all 5s;
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+button{
+    border-radius: 50px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px black;
+    transition: all 500ms;
+    scale: 1.15;
+}
+button:active{
+    box-shadow: none;
+    scale: 1;
+}
